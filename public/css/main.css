@@ -1,0 +1,32 @@
+:root{
+   --background-color:#FFC700;
+   --bs-primay-rgb: #12296c;
+}
+body{
+    background-color: var(--background-color);
+    color: var(--bs-primary-rgb);
+    font-weight: 300;
+    font-size: 1.2rem;
+    background-image:url(../img/noise.png);
+}
+.container-fluid-custom{
+    max-width: 1600px;
+}
+.btn{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    border-radius: 2rem;
+}
+
+.home-title::before{
+    content: url('../img/stars.jpg');
+    position: absolute;
+    left: -50px;
+    top: -30px;
+}
+.home-title::after{
+    content: url('../img/stars.jpg');
+    position: absolute;
+    right: -50px;
+    bottom: -30px;
+}
